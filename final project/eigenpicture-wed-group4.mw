@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2018" minor="1"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1144" drawlabel="true">
+<Input><Text-field style="Title" layout="Title" spacebelow="0"><Font size="24" italic="true">Honours Algebra</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1875" drawlabel="true">
+<Input><Text-field style="Title" layout="Title" spaceabove="0"><Font size="20">Project 1: Eigenpictures</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L1883" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Title" spaceabove="0"><Font size="14" bold="true">Group 4 (Wednesday)</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Table visible="true" editable="true" exterior="none" pagebreak="cell" showlabel="true" title="" plotalignlists="" hiddenborderdisplay="worksheet" interior="group" postexecute="insert" drawcaption="false" drawtitle="false" width="39.45205479452055%" captionalignment="1" showinput="true" captionposition="0" id="Authors" alignment="center" randomized="false" labelreference="L6888" showgroup="true" order="row"><Table-Column weight="151" separator="true"></Table-Column><Table-Column weight="137" separator="true"></Table-Column><Table-Row align="top" separator="true"><Table-Cell padding="5" visible="true" fillcolor="[255,255,255]" rowspan="1" backgroundstyle="0" columnspan="1"><Text-field style="Text" layout="Normal"><Font bold="true">Lawrence He</Font></Text-field></Table-Cell><Table-Cell padding="5" visible="true" fillcolor="[255,255,255]" rowspan="1" backgroundstyle="0" columnspan="1"><Text-field style="Text" layout="Normal" alignment="right"><Font bold="true">s1659436</Font></Text-field></Table-Cell></Table-Row><Table-Row align="top" separator="true"><Table-Cell padding="5" visible="true" fillcolor="[255,255,255]" rowspan="1" backgroundstyle="0" columnspan="1"><Text-field style="Text" layout="Normal"><Font bold="true">Junchen Hu</Font></Text-field></Table-Cell><Table-Cell padding="5" visible="true" fillcolor="[255,255,255]" rowspan="1" backgroundstyle="0" columnspan="1"><Text-field style="Text" layout="Normal" alignment="right"><Font bold="true">s1787930</Font></Text-field></Table-Cell></Table-Row><Table-Row align="top" separator="true"><Table-Cell padding="5" visible="true" fillcolor="[255,255,255]" rowspan="1" backgroundstyle="0" columnspan="1"><Text-field style="Text" layout="Normal"><Font bold="true">Loana Gericke</Font></Text-field></Table-Cell><Table-Cell padding="5" visible="true" fillcolor="[255,255,255]" rowspan="1" backgroundstyle="0" columnspan="1"><Text-field style="Text" layout="Normal" alignment="right"><Font bold="true">s1643661</Font></Text-field></Table-Cell></Table-Row><Table-Row align="top" separator="true"><Table-Cell padding="5" visible="true" fillcolor="[255,255,255]" rowspan="1" backgroundstyle="0" columnspan="1"><Text-field style="Text" layout="Normal"><Font bold="true" encoding="UTF-8">Sebastian M\303\274ksch</Font></Text-field></Table-Cell><Table-Cell padding="5" visible="true" fillcolor="[255,255,255]" rowspan="1" backgroundstyle="0" columnspan="1"><Text-field style="Text" layout="Normal" alignment="right"><Font bold="true">s1511595</Font></Text-field></Table-Cell></Table-Row></Table><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L7402" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Title" layout="Title"><Font size="20">Eigenpicture Implementation</Font></Text-field></Title><Text-field style="Text" layout="Normal">An Eigenpicture is a &quot;stroboscopic&quot; picture (phrasing used by [1]) which visualises the linear  </Text-field><Text-field style="Text" layout="Normal">mapping of a 2x2 matrix <Font bold="true" italic="true">A</Font> on several unit vectors. It consists of a collection of unit vectors from 
+the origin and the vectors <Font bold="true" italic="true">Au</Font> starting at the head of each unit vector <Font bold="true" italic="true">u </Font>(the idea of eigenpictures 
+was inspired by Professor Gilbert Strang [1]).  These eigenpictures help to understand the effect </Text-field><Text-field style="Text" layout="Normal">of a linear mapping, especially on its eigenvectors and values.</Text-field><Text-field style="Text" layout="Normal"></Text-field>
+<Group labelreference="L241" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[128,128,128]"># Import required packages.</Font>
+with(plots):
+with(LinearAlgebra):
+
+<Font foreground="[51,51,51]"># Draw an Eigenpicture for the given input matrix. 
+# Additionally, draw both eigenvectors of input matrix and vectors subject
+# to most and least expansion by input matrix on top of the Eigenpicture as 
+# grey vectors.
+#
+# Arguments:
+# A (matrix) - Input matrix (2x2) for which to draw the Eigenpicture.</Font>
+eigenpicture := proc(A)
+
+  <Font foreground="[128,128,128]"># Local variables used in the procedure.</Font>
+  local degrees, unitVectors, transform, unitPlots, transformPlots,
+        eValsA, eVecsA, ePlot, eValsATA, eVecsATA, unitVectorsS,
+        unitPlotsS, transformS, transformSPlots, pointsPlots:
+<Font foreground="[0,0,0]">
+  #############################################
+  # STEP 1: Plot a selection of unit vectors. #
+</Font><Font foreground="[51,51,51]">  #############################################</Font><Font foreground="[0,0,0]">
+
+  </Font><Font foreground="[128,128,128]"># Choose 40 different radians evenly distributed within 0 and 2*pi.</Font><Font foreground="[0,0,0]">
+</Font>  degrees := seq((k/20)*Pi, k=1..40):
+
+  <Font foreground="[128,128,128]"># Compute the unit vectors for the radians above.</Font>
+  unitVectors := [seq(&lt;cos(theta), sin(theta)&gt;, theta in degrees[])]:<Font foreground="[128,128,128]">
+
+</Font>  <Font foreground="[128,128,128]"># Plot the unit vectors.
+</Font>  unitPlots := [seq(arrow(unitVectors[i],
+                width=0.05,
+                head_length=0.1,
+                head_width=0.0,
+                color=COLOR(HSV,0.9*(i-1)/nops(unitVectors),1,1),
+                shape=arrow),
+                i=1..nops(unitVectors))]:
+
+<Font foreground="[0,0,0]">  #########################################################
+  # STEP 2: Apply matrix to unit vectors and plot result. #
+</Font><Font foreground="[51,51,51]">  #########################################################</Font>
+
+  <Font foreground="[128,128,128]"># Apply input matrix A to every unit vector.</Font>
+  transform := [seq([u,A.u], u in unitVectors)]:
+
+  <Font foreground="[128,128,128]"># Plot the transformed vectors.</Font>
+  transformPlots := [seq(arrow([transform[i]],
+                     width=0.05,
+                     head_length=0.05,
+                     head_width=0.0,
+                     color=COLOR(HSV,0.9*(i-1)/nops(unitVectors),1,1),
+                     shape=arrow),
+                     i=1..nops(transform))]:
+
+  <Font foreground="[128,128,128]"># Additionally prepare a plot of the vector ends for better
+  # presentation.</Font>
+  pointsPlots := seq(dataplot([(unitVectors[i] + A.unitVectors[i])[1]],
+                     [(unitVectors[i] + A.unitVectors[i])[2]],
+                     color=COLOR(HSV,0.9*(i-1)/nops(unitVectors),1,1),
+                     style=point, symbolsize=10),
+                     i=1..nops(unitVectors)):
+
+<Font foreground="[0,0,0]">  #############################################################
+  # STEP 3: If possible, plot the eigenvectors of the matrix. #
+</Font><Font foreground="[51,51,51]">  #############################################################
+</Font>  
+  eValsA, eVecsA := Eigenvectors(A):
+
+  <Font foreground="[128,128,128]"># Prepare a plot of the eigenvectors of the input matrix A in black.
+  </Font>ePlot := seq(arrow(Column(eVecsA, i),
+               shape=arrow,
+               width=0.05,
+               head_length=0.08,
+               head_width=0.08,
+               color=&quot;Black&quot;,
+               thickness=4),
+               i=1..2):
+
+<Font foreground="[51,51,51]">  ################################################################
+  # STEP 4: Use singular value decomposition (SVD) to find unit  #
+  #         vectors s1 and s2 that are subject to most and least #
+  #         expansion by input matrix A, respectively.           #
+  ################################################################
+
+</Font><Font foreground="[128,128,128]">  # For SVD, we first require eigenvalues and eigenvectors of matrix
+  # (A^T . A).
+</Font><Font foreground="[0,0,0]">  </Font>eValsATA, eVecsATA := Eigenvectors(Transpose(A).A):
+
+  # Compute the s1 and s2.
+  unitVectorsS := [seq(Normalize(Column(eVecsATA, j), Euclidean),
+                   j=1..2)]:
+
+  <Font foreground="[128,128,128]"># Prepare a plot of s1 and s2 in dark grey.</Font>
+  unitPlotsS := arrow(unitVectorsS,
+                      shape=arrow,
+                      width=0.05,
+                      head_length=0.0,
+                      head_width=0.0,
+                      color=&quot;DarkGrey&quot;,
+                      thickness=4): 
+
+<Font foreground="[153,153,153]">  # Apply input matrix A to s1 and s2.</Font>
+  transformS := [seq([s, A.s], s in unitVectorsS)]:
+
+<Font foreground="[153,153,153]">  # Prepare a plot of s1 and s2 transformed by input matrix A, again
+  # in dark grey.</Font>
+  transformSPlots := arrow(transformS,
+                           width=0.05,
+                           head_length=0.08,
+                           head_width=0.08,
+                           color=&quot;DarkGrey&quot;,
+                           shape=arrow,
+                           thickness=4):
+
+<Font foreground="[0,0,0]">  ##########################################################
+  # STEP 5: Display all the plots that have been prepared. #
+</Font><Font foreground="[51,51,51]">  ##########################################################</Font><Font foreground="[51,51,153]">
+</Font>
+  display(unitPlots, transformPlots, pointsPlots, ePlot,
+          unitPlotsS, transformSPlots, scaling=constrained);
+ 
+end proc:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Annotation Title" layout="Annotation Title"><Font size="20">Examples of Eigenpictures</Font></Text-field></Title>
+<Group labelreference="L6893" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">In this section we will test our implementation of  <Font bold="true" foreground="[255,0,0]" family="Courier New">eigenpicture</Font> on various examples using the </Text-field><Text-field style="Text" layout="Normal">procedure <Font bold="true" foreground="[255,0,0]" family="Courier New">displayExample </Font>which displays the matrix, its eigenpicture and some description.<Font family="Courier New">
+</Font>The Examples should cover all edge cases in terms of eigenvalues and eigenvectors of matrices and </Text-field><Text-field style="Text" layout="Normal">are more specifically explained at the right place within the code.</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L242" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[51,51,51]"># Display matrix and its Eigenpicture with some description.
+#
+# Arguments:
+# A (matrix) - Input matrix (2x2) for which to draw the Eigenpicture.
+# matrixDesc (string) - Description for the matrix.</Font><Font foreground="[128,0,0]">
+</Font><Font foreground="[51,51,51]"># picDesc (string) - Description for the Eigenpicture.</Font><Font foreground="[128,0,0]">
+displayExample := proc(A, matrixDesc, picDesc)
+
+</Font><Font foreground="[128,128,128]">  # Print a separator to keep displayed output visual apart from rest.</Font><Font foreground="[128,0,0]">
+  </Font>printf(StringTools[Repeat](&quot;-&quot;,70));
+<Font encoding="UTF-8">  printf(&quot;\134n&quot;);
+</Font>
+<Font foreground="[128,128,128]">  # Print input matrix with description.</Font>
+  printf(matrixDesc);
+  print(A);
+
+<Font foreground="[128,128,128]">  # Display eigenpicture for input matrix with a description:</Font>
+  printf(picDesc);
+  eigenpicture(A);<Font foreground="[128,0,0]">
+
+end proc:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L6886" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Heading 1" layout="Heading 1">Real and Distinct Eigenvalues
+<Font style="Text">Example (taken from [2]) with two real and distinct eigenvalues to demonstrate a non-degenerate case and serve as a base
+case for investigation of peculiarities in the other eigenpictures.</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L6887" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">displayExample(&lt;2,1;0,1&gt;,
+               &quot;Matrix with two real and distinct eigenvalues:&quot;,
+               &quot;Eigenpicture showing two linearly independent eigenvectors of A^T.A and two linearly independent eigenvectors of A:&quot;);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6884" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Heading 1" layout="Heading 1">Zero Eigenvalue
+<Font style="Text">Example with one real and one 0 eigenvalue to demonstrate the effect of matrix in case of a 0 eigenvalue.
+While both eigenvalues are still real and distinct, the eigenpicture here should still vary in a significant
+way from the base case, which it does: all vectors <Font bold="true" italic="true">Av</Font>, except for the eigenvector corresponding to the eigenvalue 0, 
+are parallel to the other eigenvector.</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L6885" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">displayExample(&lt;-6,3; 2,-1&gt;,
+               &quot;Matrix with <Font foreground="[128,0,0]">one real and one 0 eigenvalue</Font>: &quot;,
+               &quot;Eigenpicture showing effect of matrix having a 0 eigenvalue: &quot;);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6713" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Heading 1" layout="Heading 1">Complex Eigenvalues</Text-field><Text-field style="Heading 1" layout="Heading 1"><Font style="Text">Example (inspired by [1]) with complex conjugate eigenvalues, in this case a rotation matrix. 
+Here we demonstrate that a matrix does not necessarily distort lengths of vectors.</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L6714" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">displayExample(&lt;cos(Pi/6),sin(Pi/6); -sin(Pi/6),cos(Pi/6)&gt;,
+               &quot;Matrix with <Font foreground="[128,0,0]">two complex conjugate eigenvalues</Font>: &quot;,
+               &quot;Eigenpicture showing two linearly independent eigenvectors of A^T.A without the complex eigenvectors of A :&quot;);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6711" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Heading 1" layout="Heading 1">Real and Repeated Eigenvalue</Text-field><Text-field style="Heading 3" layout="Heading 3">Independent Eigenvectors
+</Text-field><Text-field style="Heading 3" layout="Heading 3"><Font style="Text">In terms of eigenvectors, one of two scenarios could happen when it comes to repeated eigenvalues. One
+case is that there could be linearly independent eigenvectors corresponding to the repeated eigenvalue. The
+other case is that the eigenvectors are actually dependent. We will demonstrate eigenpictures with both,
+starting with the independent eigenvector case.</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L6712" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">displayExample(&lt;2,0; 0,2&gt;,
+               &quot;Matrix with real, repeated eigenvalue: &quot;,
+               &quot;Eigenpicture showing two linearly independent eigenvectors of A^T.A and two linearly independent eigenvectors of A (overlapped):&quot;);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6709" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Heading 1" layout="Heading 1">Real and Repeated Eigenvalue</Text-field><Text-field style="Heading 3" layout="Heading 3">Dependent Eigenvectors</Text-field><Text-field style="Text" foreground="[51,51,51]" layout="Normal"></Text-field><Text-field style="Text" foreground="[51,51,51]" layout="Normal"><Font foreground="[51,51,51]">This is a continuation from the previous example and showcases the case of linearly dependent eigenvectors
+corresponding to a real, repeated eigenvalue, ie. a matrix <Font bold="true" italic="true">A</Font> with algebraic multiplicity 2 and geometric multiplicity 1.</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L6710" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">displayExample(&lt;1,0; -4,1&gt;,
+               &quot;Matrix with real, repeated eigenvalue: &quot;,
+               &quot;Eigenpicture showing two linearly independent eigenvectors of A^T.A and two linearly dependent eigenvectors of A:&quot;);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6708" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Heading 1" layout="Heading 1">Eigenpicture with No Ellipse</Text-field><Text-field style="Text" layout="Normal"></Text-field><Text-field style="Text" layout="Normal">One of the open questions for this project was if it had to be the case that eigenpictures would always show an
+ellipse. With the example below we shall demonstrate that this is in fact not the case and there are eigenpictures
+that do not incorporate an ellipse.</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L6706" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">displayExample(&lt;-1,2; 0,-1&gt;,
+               &quot;Matrix with real, repeated eigenvalue:&quot;,
+               &quot;Eigenpicture without an ellipse:&quot;);</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Title" layout="Title"><Font size="20">Example of Singular Value Decomposition</Font></Text-field></Title>
+<Group labelreference="L6892" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">For the purposes of our presentation we shall run through an example of the Singular Value
+Decomposition (SVD). It will showcase the different effects of the matrices related to SVD, which will
+demonstrate the different effects of a matrix that can be visualised with an eigenpicture, i.e. rotation and
+length distortion. The idea was inspired by [3] .</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4720" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[128,128,128]"># Import required packages (ensure that if only this code block is executed
+# it will still work).</Font>
+with(plots):
+with(LinearAlgebra):
+
+<Font foreground="[128,128,128]"># Matrix that will be used for simulation.</Font>
+A := &lt;2,1;0,1&gt;:
+
+<Font foreground="[0,0,0]">########################################################
+# STEP 1: Compute matrices required for singular value #
+#         decomposition (SVD).                         #
+########################################################</Font>
+
+U,S,Vt := SingularValues(A,output=['U','S','Vt'],'thin'):
+sigma := DiagonalMatrix(S):
+
+<Font foreground="[0,0,0]">#############################################################</Font><Font foreground="[51,51,51]">##</Font><Font foreground="[0,0,0]">
+# STEP 2: Prepare plots showcasing the various effects of the #
+#         SVD-related matrices.                               #
+###############################################################</Font>
+
+<Font foreground="[128,128,128]"># Choose 40 different radians evenly distributed within 0 and 2*pi.</Font>
+degrees := seq((k/20)*Pi, k=1..40):
+
+<Font foreground="[128,128,128]"># Compute the unit vectors for the radians above.</Font>
+unitVectors := [seq(&lt;cos(theta), sin(theta)&gt;, theta in degrees[])]:<Font foreground="[128,128,128]">
+
+# Prepare plot of the unit vectors in grey.
+</Font>unitPlots := [seq(arrow(unitVectors[i],
+              width=0.05,
+              head_length=0.1,
+              head_width=0.1,
+              color=&quot;grey&quot;, shape=arrow),
+              i=1..nops(unitVectors))]:<Font foreground="[128,128,128]">
+
+# Prepare a plot of the unit vectors with clockwise rotation matrix (Vt)
+# applied to them.
+</Font><Font foreground="[153,51,0]">clockwisePlots := </Font>[seq(arrow([[unitVectors[i],Vt.unitVectors[i]]],
+                   width=0.05,
+                   head_length=0.1,
+                   head_width=0.1,
+                   color=&quot;LightBlue&quot;,
+                   shape=arrow),
+                   i=1..nops(unitVectors))]:<Font foreground="[128,128,128]">
+
+# Prepare of unit vectors with both rotation (Vt) and
+# scaling (sigama) matrices applied to them.
+</Font><Font foreground="[153,51,0]">scalingPlots := </Font>[seq(arrow([[unitVectors[i] + Vt.unitVectors[i],
+                             sigma.Vt.unitVectors[i]]],
+                 width=0.05,
+                 head_length=0.1,
+                 head_width=0.1,
+                 color=&quot;RoyalBlue&quot;,
+                 shape=arrow),
+                 i=1..nops(unitVectors))]:<Font foreground="[128,128,128]">
+
+# Prepare a plot with all SVD-related matrices applied to unit
+# vectors.
+</Font><Font foreground="[153,51,0]">antiClockwisePlots := </Font>[seq(arrow([[unitVectors[i] + Vt.unitVectors[i] + sigma.Vt.unitVectors[i],
+                                   U.sigma.Vt.unitVectors[i]]],
+                       width=0.05,
+                       head_length=0.1,
+                       head_width=0.1,
+                       color=&quot;NavyBlue&quot;,
+                       shape=arrow),
+                       i=1..nops(unitVectors))]:<Font foreground="[153,51,0]">
+
+</Font><Font foreground="[128,128,128]"># Prepare plot for the resulting ellipse.</Font>
+ellipsePlots := dataplot([seq((u + Vt.u + sigma.Vt.u + U.sigma.Vt.u)[1],
+                               u in unitVectors)],
+                         [seq((u + Vt.u + sigma.Vt.u + U.sigma.Vt.u)[2],
+                              u in unitVectors)]):<Font foreground="[153,51,0]">
+
+</Font><Font foreground="[0,0,0]">##########################################################
+# STEP 3: Display all the plots that have been prepared. #
+</Font><Font foreground="[51,51,51]">##########################################################</Font><Font foreground="[153,51,0]">
+
+</Font><Font foreground="[128,128,128]"># Display the three transformations after applying Vt, then sigma,
+# then U.</Font><Font foreground="[153,51,0]">
+display</Font>(unitPlots, clockwisePlots, scalingPlots,
+        <Font foreground="[153,51,0]">antiClockwisePlots</Font>, ellipsePlots, scaling=constrained);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L8956" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section><Text-field style="Text" layout="Normal"></Text-field>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1" alignment="centred"><Font size="20">Citation</Font></Text-field></Title><Text-field style="Text" size="16" layout="Normal"></Text-field><Text-field style="Text" size="16" layout="Normal"><Font size="16">[1] Steven Schonefeld, <Font italic="true">Eigenpictures: Picturing the Eigenvector Problem</Font>, The College Mathematics Journal , Vol. 26, No. 4 (Sep., 1995), pp. 316-319 (<Font foreground="[51,102,255]">http://www.jstor.org/stable/2687037</Font>).</Font></Text-field><Text-field style="Text" size="16" layout="Normal"></Text-field><Text-field style="Text" size="16" layout="Normal"><Font size="16">[2] The University of Edinburgh. <Font italic="true">Honours Algebra Skills Project 1: Eigenpictures.</Font> Retrieved from Learn, Myed.</Font></Text-field><Text-field style="Text" size="16" layout="Normal"></Text-field><Text-field style="Text" size="16" layout="Normal"><Font size="16">[3] MIT OpenCourseWare. <Font italic="true">Singular Value Decomposition (the SVD)</Font> [online]. Available at: <Font foreground="[51,102,255]">https://www.youtube.com/watch?v=mBcLRGuAFUk</Font>.</Font></Text-field><Text-field style="Text" size="16" layout="Normal"></Text-field><Text-field style="Text" size="16" layout="Normal"></Text-field><Text-field style="Text" layout="Normal"></Text-field>
+</Section>
+</Worksheet>

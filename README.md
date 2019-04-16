@@ -1,2 +1,2 @@
 # Eigenpicture
-## Honours Algebra Project
+### (Honours Algebra Project)
